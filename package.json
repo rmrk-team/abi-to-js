@@ -1,0 +1,38 @@
+{
+  "name": "@nikitindiz/abi-to-js",
+  "version": "0.0.18",
+  "description": "JS & React Hooks code generator for EVM ABI",
+  "dependencies": {
+    "@polkadot/util-crypto": "10.2.1",
+    "@tanstack/react-query": "4.24.4",
+    "ethers": "5.7.2",
+    "prettier": "2.7.1",
+    "ramda": "0.28.0",
+    "typescript": "4.9.5",
+    "wagmi": "0.11.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rmrk-team/abi-to-js.git"
+  },
+  "keywords": [
+    "rmrk",
+    "abi",
+    "hooks",
+    "evm"
+  ],
+  "author": "RMRK Team",
+  "license": "ISC",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/rmrk-team/abi-to-js/issues"
+  },
+  "homepage": "https://github.com/rmrk-team/abi-to-js#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  }
+}
